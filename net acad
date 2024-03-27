@@ -1,0 +1,141 @@
+print("My name is", "Python.")
+print("Monty Python.")
+
+print("The itsy bitsy spider" , "climbed up" , "the waterspout.")
+The itsy bitsy spider climbed up the waterspout.
+
+print("The itsy bitsy spider" , "climbed up" , "the waterspout.")
+The itsy bitsy spider climbed up the waterspout.
+##############################################################
+print("The itsy bitsy spider\nclimbed up the waterspout.")
+print()
+print("Down came the rain\nand washed the spider out.")
+
+##############################################################
+
+print("My name is", "Python.", end=" ")
+print("Monty Python.")
+##############################################################
+
+print("My name is ", end="")
+print("Monty Python.")
+##############################################################
+
+print("My", "name", "is", "Monty", "Python.", sep="-")
+My-name-is-Monty-Python.
+##############################################################
+
+print("My", "name", "is", sep="_", end="*")
+print("Monty", "Python.", sep="*", end="*\n")
+
+My_name_is*Monty*Python.*
+##############################################################
+print("Programming", "Essentials", "in", sep="***", end="...")
+print("Python")
+Programming***Essentials***in...Python
+##############################################################
+print("2")
+print(2)
+print("H", "E", "L", "L", "O", sep="-")
+
+2
+2
+H-E-L-L-O
+##############################################################
+print(0o123)
+83
+##############################################################
+>>> print("I like \"Monty Python\"")
+I like "Monty Python"
+##############################################################
+>>> print('I like "Monty Python"')
+I like "Monty Python"
+>>>
+##############################################################
+print('I\'m Monty Python.')
+print("I'm Monty Python.")
+I'm Monty Python.
+I'm Monty Python.
+##############################################################
+>>> print(True > False)
+True
+>>> print(True < False)
+False
+>>>
+##############################################################
+
+##############################################################
+Operator	Name				Example	Try it
++			Addition			x + y	
+-			Subtraction			x - y	
+*			Multiplication		x * y	
+/			Division			x / y	
+%			Modulus				x % y	
+**			Exponentiation		x ** y	
+//			Floor division		x // y
+##############################################################
+
+x = int(input())
+y = int(input())
+
+x = x % y
+x = x % y
+y = y % x
+
+print(y)
+
+##############################################################
+x = 2
+y = 4
+
+print(y + x)
+6
+__________________
+
+x = 11
+y = 4
+
+print(x % y)
+3
+__________________
+
+x = (11)
+y = (4)
+
+x = x % y
+x = x % y
+y = y % x
+
+print(y)
+
+1
+_________________
+y = 1 / 2 + 3 // 3 + 4 ** 2
+print(y)
+17.5
+_________________
+
+y = 4
+x = 2
+x = x / y
+y = y / x
+print(y)
+
+8.0
+_________________
+y = 4
+x = 2
+x = x // y
+y = y // x
+print(y)
+
+8.0
+
+_________________
+var = 0  # Assigning 0 to var
+print(var == 0)
+
+var = 1  # Assigning 1 to var
+print(var == 0)
+True
+False
